@@ -4,7 +4,7 @@ public class Bubble_Sort {
         int size=arr.length;
         int i,j,temp;
         for(i=1;i<size;i++){
-            for(j=0;j<size-1;j++){
+            for(j=0;j<size-i;j++){
                 if(arr[j]>arr[j+1]){
                     temp=arr[j+1];
                     arr[j+1]=arr[j];
