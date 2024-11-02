@@ -6,7 +6,7 @@ public class Modified_Bubble_sort {
         int flag=0;
         int count=0;
         for(i=1;i<size;i++){
-            for(j=0;j<size-1;j++){
+            for(j=0;j<size-i;j++){
                 if(arr[j]>arr[j+1]){
                     temp=arr[j+1];
                     arr[j+1]=arr[j];
